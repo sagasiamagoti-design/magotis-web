@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+}
+
+input,
+select {
+    padding: 8px;
+    margin: 5px;
+    width: 150px;
+}
+
+button {
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background: rgb(179, 5, 14);
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #8d0914;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #059ea3;
+    color: rgb(255, 253, 253);
+    font-family: 'Times New Roman', Times, serif;
+}

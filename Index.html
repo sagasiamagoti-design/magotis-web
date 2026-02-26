@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>O-Level Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>(OSMS)<BR>O-LEVEL STUDENT MANAGEMENT<BR> SYSTEM
+        <HR>
+    </h1>
+
+    <!-- Registration Form -->
+    <div class="card">
+        <h2>Register Student</h2>
+        <form id="studentForm">
+            <input type="text" id="studentId" placeholder="Student ID" required><br><br>
+            <input type="text" id="studentName" placeholder="Full Name" required><br><br>
+            <input type="number" id="studentAge" placeholder="Age" required min="9" max="19"><br><br>
+
+            <select id="studentGender" required>
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select><br><br>
+
+            <select id="studentFormLevel" required>
+                <option value="">Select Form</option>
+                <option value="1">Form 1</option>
+                <option value="2">Form 2</option>
+                <option value="3">Form 3</option>
+                <option value="4">Form 4</option>
+            </select><br><br>
+
+            <button type="submit">Register</button><br><br>
+        </form>
+    </div>
+
+    <!-- Search -->
+    <div class="card">
+        <input type="text" id="searchInput" placeholder="Search by ID or Name">
+    </div><br><br>
+
+    <!-- Student Table -->
+    <div class="card">
+        <h2>Student List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Form</th>
+                    <th>Average</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable"></tbody>
+        </table>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
