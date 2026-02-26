@@ -6,4 +6,4 @@ REG NO:24101123130057
 
 NAME:SAGASYA MAGOTI
 
-https://github.com/sagasiamagoti-design/magotis-web
+[https://github.com/sagasiamagoti-design/magotis-web](https://sagasiamagoti-design.github.io/magotis-web/)
